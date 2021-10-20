@@ -275,7 +275,7 @@ might be useful if you want to create separate background for the rest of the we
     display:inline-flex;
     flex-wrap:wrap;
     width: 80%;
-    background-color: whitesmoke;
+    background-color: red;
     transform: translate(12.5%,0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8rem;
@@ -612,6 +612,31 @@ text-decoration: none;
     color:#262626;
 }
 
+.sponsorkind {
+    width:180px;
+    height: 180px;
+    background-color: blue;
+    border-radius: 5px;
+    margin:25px;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.kindintro {
+    width:100%;
+    height:30px;
+    background-color:rgba(255, 255, 255, 0.623);
+    padding: 10px;
+    border-radius:  0 0 5px 5px;
+    margin-top:100%;
+    transform:translate(0,-100%);
+}
+
+#kind-1 {
+    background-image: url("Squirrel.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
 
 
