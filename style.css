@@ -12,8 +12,8 @@
 
 header {
     width:100%;
-    background:#939597;
-    height:125px;
+    background:#2EC4B6;
+    height:95px;
     z-index:12;
     position:fixed;
 }
@@ -27,13 +27,13 @@ body {
 .logo {
     float: left;
     height:100px;
-    margin-top:50px;
+    margin-top:25px;
 }
 
 nav {
     float:right;
     height:30px;
-    margin-top:50px;
+    margin-top:35px;
 }
 
 nav ul li {
@@ -71,10 +71,10 @@ nav ul li a:hover {
 
 .banner-area{ 
     width:100%; /* the banner area has a different width than the wrapper website*/
-    top:125px;
+    top:95px;
     height:525px;
     position:fixed;
-    background-image: url(San\ Francisco.jpg);
+    background-image: url(20190505_074653.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -105,23 +105,24 @@ nav ul li a:hover {
     padding:20px;
     margin:0 auto;
     width:35%;
-    margin-top: 20px;
+    margin-top: 50px;
     border:solid 1px transparent;
     border-radius: 0.3em;
 }
 
 .banner-area button {
-    margin-top:40px;
+    margin-top:20px;
     padding:15px;
     width: 16%;
     color:#262626;
-    background-color: #F5DF4D;
+    background-color: #2EC4B6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.0em;
     font-weight: 400;
     border: solid 1px transparent;
     border-radius: 00.3em;
     cursor:pointer;
+    color: #F5DF4D;
 }
 
 .banner-area button:hover{
@@ -147,7 +148,7 @@ nav ul li a:hover {
 }*/
 
 .contenthome {
-    background-color: yellow;
+    background-color:whitesmoke;
     position:relative;
     width:100%;
     top:650px;
@@ -167,7 +168,7 @@ nav ul li a:hover {
 
 .news {
     width:300px;
-    background-color: whitesmoke;
+    background-color: white;
     opacity: 80%;
     padding:20px;
     height: 250px;
@@ -206,7 +207,7 @@ nav ul li a:hover {
 }
 
 .footer {
-    background-color: teal;
+    background-color: #2EC4B6;
     width:100%;
     left:0px;
     height:50px;
@@ -270,12 +271,12 @@ might be useful if you want to create separate background for the rest of the we
 /*SECTION FOR CONTENT ON ALL PAGES*/
 
 .content {
-    margin-top:200px;
-    margin-bottom: 70px; /*50 px margin is footer height + 20 px for actual margin*/
+    margin-top:125px;
+    margin-bottom: 85px; /*50 px margin is footer height + 20 px for actual margin*/
     display:inline-flex;
     flex-wrap:wrap;
     width: 80%;
-    background-color: red;
+    background-color: whitesmoke;
     transform: translate(12.5%,0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8rem;
@@ -306,10 +307,11 @@ might be useful if you want to create separate background for the rest of the we
 }
 .returnnews {
     position: absolute;
-    left:270px;
-    margin-top:165px;
+    left:220px;
+    margin-top:145px;
     font-size: 0.75rem;
     text-align: center;
+    z-index: 12;
 }
 
 .returnnews a {
@@ -356,7 +358,7 @@ text-decoration: none;
 
 /*area for listing individual projects blocks*/
 .projects {
-    margin-top:170px;
+    margin-top:125px;
     margin-bottom: 70px; /*50 px margin is footer height + 20 px for actual margin*/
     display:inline-flex;
     flex-wrap:wrap;
@@ -453,9 +455,9 @@ text-decoration: none;
   /* Modal Content/Box */
   .modal-content {
     background-color: whitesmoke;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 10% auto; /* 15% from the top and centered */
     padding: 20px;
-    height:450px;
+    height:550px;
     width: 60%; /* Could be more or less, depending on screen size */
     border-radius: 5px;
   }
@@ -490,12 +492,20 @@ text-decoration: none;
     margin: 0 0 25px 0;
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-between;
 }
 .textmodal {
     position: relative;
-    margin:0 0 25px 0;
+    margin:0 20px 45px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: rgb(54, 54, 54);
+}
+.textmodal ul{
+    text-decoration: none;
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 20px;
 }
 
 .projectpic {
@@ -639,6 +649,18 @@ text-decoration: none;
 }
 
 
+
+/* OVER YAMARU */
+
+.over{
+    width:55%;
+    position: relative;
+    margin:0 auto;
+    padding:20px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
 
 /*
 .projects {
