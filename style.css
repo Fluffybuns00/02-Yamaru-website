@@ -740,6 +740,96 @@ might be useful if you want to create separate background for the rest of the we
     background-size: cover;
 }
 
+#kind-4 {
+    background-image: url("Irma-Kaligis.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-5 {
+    background-image: url("Albertus-Israel-Randang.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-6 {
+    background-image: url("Salomita-Supit.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-7 {
+    background-image: url("IrenMagawe.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-8 {
+    background-image: url("Septi-Ngangi.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-9 {
+    background-image: url("Eklesia-Smolang.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-10 {
+    background-image: url("Karmela-Senduk1.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-11 {
+    background-image: url("Anita-Felomena-Pangayow.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-12 {
+    background-image: url("Yefta-Maningkas.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-13 {
+    background-image: url("Alfonsius-Kapoh.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-14 {
+    background-image: url("Wulan-Wagino.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-15 {
+    background-image: url("Imanuela-Falensia-Kelung.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-16 {
+    background-image: url("Anolik-Cody-Jhon.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-17 {
+    background-image: url("Putri-St.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#kind-18 {
+    background-image: url("Putri-Julaika-Sekeh.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
 
 .kindpicmodal img {
     width:50%;
