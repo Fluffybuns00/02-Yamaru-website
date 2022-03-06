@@ -23,6 +23,10 @@ body {
     background-color: whitesmoke;
     height:100%;
 }
+body a {
+    text-decoration: none;
+    color:#262626;
+}
 
 .logo {
     float: left;
@@ -400,6 +404,13 @@ might be useful if you want to create separate background for the rest of the we
 
 }
 
+.fillertile {
+    width:300px;
+    height:0;
+    margin: 30px 30px;
+    padding:10px;
+} /*added to fill space at the end of the row; last row of project tiles now aligns to left of page regardless of number of tiles*/
+
 .project:hover{
     opacity: 0.8;
 }
@@ -507,7 +518,8 @@ might be useful if you want to create separate background for the rest of the we
     overflow: scroll;
 }
 
-.picturesmodal{
+/* this is all for projects pages - not sponsorkinderen */
+.picturesmodal{ 
     width:100%;
     margin: 0 0 25px 0;
     display: inline-flex;
@@ -526,6 +538,17 @@ might be useful if you want to create separate background for the rest of the we
     list-style-type: square;
     list-style-position: outside;
     margin-left: 20px;
+}
+
+.textmodal a {
+    text-decoration: none;
+    color:#2EC4B6;
+}
+
+.textmodal a:hover {
+    text-decoration: none;
+    color:#2EC4B6;
+    background-color: #F5DF4D;
 }
 
 .projectpic {
@@ -653,17 +676,24 @@ might be useful if you want to create separate background for the rest of the we
     background-color: blue;
     border-radius: 5px;
     display: inline-flex;
-    justify-content: flex-start;
+    justify-content:space-around;
     margin: 0 auto;
     margin:20px;
 }
 
 .sponsorkind:hover {
     opacity: 0.7;
+    cursor: pointer;
 }
 .sponsorkind:hover .doneeroverlay{
     opacity: 1;
 }
+
+.kindfillertile {
+    width:180px;
+    height:0;
+    margin:20px;
+} /*added to fill the space on the last row; last row always aligns left now*/
 
 .doneeroverlay{
     position: absolute;
@@ -708,6 +738,15 @@ might be useful if you want to create separate background for the rest of the we
     background-image: url("Yani-Pesik.jpeg");
     background-position: center;
     background-size: cover;
+}
+
+
+.kindpicmodal img {
+    width:50%;
+    position: relative;
+    transform: translate(50%,0);
+    margin-bottom:20px;
+    background-color: yellow;
 }
 
 
