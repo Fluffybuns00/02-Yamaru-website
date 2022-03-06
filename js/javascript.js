@@ -1,10 +1,17 @@
 var modals = document.getElementsByClassName("modal");
 var btns = document.getElementsByClassName('project');
+var btnk = document.getElementsByClassName('sponsorkind');
 var spans=document.getElementsByClassName("close");
 
 // for every button (is every project), display the modal on click. 
 for(let i=0;i<btns.length;i++){
   btns[i].onclick = function() {
+      modals[i].style.display = "block";
+  }
+}
+
+for(let i=0;i<btnk.length;i++){
+  btnk[i].onclick = function() {
       modals[i].style.display = "block";
   }
 }
@@ -23,3 +30,4 @@ for(let i=0;i<modals.length;i++){
     modals[i].style.display = "none";}
   });
 }
+
