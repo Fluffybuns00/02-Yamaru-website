@@ -78,7 +78,7 @@ nav ul li a:hover {
     top:95px;
     height:525px;
     position:fixed;
-    background-image: url(20190505_074653.jpg);
+    background-image: url(20190505_074653copy.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -213,7 +213,7 @@ nav ul li a:hover {
     margin: 50px 15px auto auto;
     height: 250px;
     padding:20px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .footer {
@@ -375,6 +375,15 @@ might be useful if you want to create separate background for the rest of the we
     background-image: url("Han.png");
 }
 
+#Sayap2 {
+    background-image: url("bouw\ yamaru2.jpg");
+}
+
+#keuken {
+    background-image: url("Tempat\ cuci\ piring\,\ meja\ konfor\,\ dan\ meja\ kerja\ dari\ dapur\ SK.jpg");
+    background-size: 300px;
+}
+
 /*area for listing individual projects blocks*/
 .projects {
     margin-top:125px;
@@ -437,7 +446,7 @@ might be useful if you want to create separate background for the rest of the we
 }
 
 #sayap {
-    background-image: url("grond-kasih2.jpg");
+    background-image: url("Sayap\ Kasih\ Dua.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -518,13 +527,17 @@ might be useful if you want to create separate background for the rest of the we
     overflow: scroll;
 }
 
+.projectmodal::-webkit-scrollbar {
+    display: none;
+}
+
 /* this is all for projects pages - not sponsorkinderen */
 .picturesmodal{ 
     width:100%;
     margin: 0 0 25px 0;
     display: inline-flex;
-    flex-wrap: wrap;
     justify-content:space-between;
+    overflow: scroll;
 }
 .textmodal {
     position: relative;
@@ -705,10 +718,13 @@ might be useful if you want to create separate background for the rest of the we
 
 .kinddontext{
     width:50%;
+    border-radius: 2px;
     margin:0 auto;
     margin-top: 60px;
+    padding:4px;
     background-color: #F5DF4D;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
 }
 
 
@@ -853,6 +869,98 @@ might be useful if you want to create separate background for the rest of the we
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.8rem;
 }
+
+.jaarverslagen{
+    width:55%;
+    position: relative;
+    margin:0 auto;
+    padding:20px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
+
+.jaarverslagen ul li {
+    list-style-type: none;
+}
+
+.jaarverslagen ul li h3:hover {
+    background-color: #2EC4B6;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.jaarverslagen ul li h3 {
+    margin-top:20px;
+}
+
+.jaarverslagen ul li h4{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.jaarverslagen ul li h4:hover {
+    background-color: #2EC4B6;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+
+.bestuur {
+    display: inline-flex;
+    width: 100%;
+    margin-top:30px;
+}
+
+.bestuurtext {
+    width:100%;
+    text-align: justify;
+    position: relative;
+    margin-left: 40px;
+}
+
+.bestuurtext h4{
+    margin-bottom:6px;
+}
+
+.bestuurfoto {
+        background-image: url("Emilie.PNG");
+        background-position: center;
+        background-size: cover;
+        width:350px;
+        height:200px;
+        border-radius: 5px;
+}
+
+#chantalB{
+    background-image: url("chantalB.PNG");
+}
+
+#janS{
+    background-image: url("Jan.JPG");
+}
+
+#michelleB{
+    background-image: url("Michelle\ Borsboom.jpg");
+}
+
+#jaapZ{
+    background-image: url("Jaap.PNG");
+}
+
+#bernadetteV{
+    background-image: url("thumbnail_Bernadette\ Verhoef.jpg");
+}
+
+#theoB{
+    background-image: url("theob.jpg");
+}
+
+#emilieB{
+    background-image: url("Emilie2.JPG");
+}
+
 
 /*
 .projects {
