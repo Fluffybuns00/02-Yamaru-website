@@ -213,8 +213,17 @@ nav ul li a:hover {
     margin: 50px 15px auto auto;
     height: 250px;
     padding:20px;
-    overflow: hidden;
+    overflow: scroll;
 }
+
+.intro::-webkit-scrollbar {
+    display: none;
+  }
+
+  .intro {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 .footer {
     background-color: #2EC4B6;
