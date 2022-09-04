@@ -360,7 +360,6 @@ might be useful if you want to create separate background for the rest of the we
 }
 
 .newsimage {
-        background-image: url("nw-rolstoel.jpg");
         background-position: center;
         width:300px;
         height:200px;
@@ -382,6 +381,21 @@ might be useful if you want to create separate background for the rest of the we
 
 #han {
     background-image: url("Han.png");
+}
+
+#KeukenSept {
+    background-image: url("KeukenSept.jpeg");
+    background-size: cover;
+}
+
+#BouwVorderingSept {
+    width:300px;
+    height:200px;
+}
+
+#Stranddag {
+    background-image: url("StranddagSept.JPG");
+    background-size: cover;
 }
 
 #Sayap2 {
