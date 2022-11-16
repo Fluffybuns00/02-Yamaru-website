@@ -383,6 +383,11 @@ might be useful if you want to create separate background for the rest of the we
     background-image: url("Han.png");
 }
 
+#insta {
+    background-image: url("insta.png");
+    background-size: cover;
+}
+
 #tehuisNov {
     background-image: url("tehuis.jpeg");
     background-size: cover;
