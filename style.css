@@ -383,10 +383,22 @@ might be useful if you want to create separate background for the rest of the we
     background-image: url("Han.png");
 }
 
+#tehuisNov {
+    background-image: url("tehuis.jpeg");
+    background-size: cover;
+}
+
+#VerslagNov22 {
+    background-image: url("Screenshot\ 2022-11-16\ at\ 20.29.24.png");
+    background-size: cover;
+}
+
 #KeukenSept {
     background-image: url("KeukenSept.jpeg");
     background-size: cover;
 }
+
+
 
 #BouwVorderingSept {
     width:300px;
