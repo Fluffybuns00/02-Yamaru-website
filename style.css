@@ -388,13 +388,18 @@ might be useful if you want to create separate background for the rest of the we
     background-size: cover;
 }
 
+#openingsk {
+    background-image: url("tbpscreens.png");
+    background-size: cover;
+}
+
 #tehuisNov {
     background-image: url("tehuis.jpeg");
     background-size: cover;
 }
 
-#VerslagNov22 {
-    background-image: url("Screenshot\ 2022-11-16\ at\ 20.29.24.png");
+#VerslagNov {
+    background-image: url("BezoekYamaru.png");
     background-size: cover;
 }
 
@@ -403,7 +408,11 @@ might be useful if you want to create separate background for the rest of the we
     background-size: cover;
 }
 
-
+#SayapKasihTBP {
+    background-size: contain;
+    width:80%;
+    height:80%;
+}
 
 #BouwVorderingSept {
     width:300px;
@@ -416,7 +425,7 @@ might be useful if you want to create separate background for the rest of the we
 }
 
 #Sayap2 {
-    background-image: url("bouw\ yamaru2.jpg");
+    background-image: url("]\ yamaru2.jpg");
 }
 
 #keuken {
